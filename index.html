@@ -70,30 +70,86 @@
       </a>
     </header>
     <div class="products">
-      <div class="product earth">
-        Deep earth
-      </div>
-      <div class="product arcade">
-        Night arcade
-      </div>
-      <div class="product soccer">
-        Soccer team VR
-      </div>
-      <div class="product grid">
-        The grid
-      </div>
-      <div class="product above">
-        From up above VR
-      </div>
-      <div class="product borealis">
-        Pocket borealis
-      </div>
-      <div class="product curiosity">
-        The curiosity
-      </div>
-      <div class="product fisheye">
-        Make it fisheye
-      </div>
+
+
+
+
+      
+      .above {
+        background-image: url("./images/mobile/image-from-above.jpg");
+      }
+      
+      .borealis {
+        background-image: url("./images/mobile/image-pocket-borealis.jpg");
+      }
+      
+      .curiosity {
+        background-image: url("./images/mobile/image-curiosity.jpg");
+      }
+      
+      .fisheye {
+        background-image: url("./images/mobile/image-fisheye.jpg");
+      }
+
+
+
+
+			<picture class="product">
+				<source media="(min-width:400px)" srcset="./images/desktop/image-deep-earth.jpg">
+				<img src="./images/mobile/image-deep-earth.jpg" alt="deep earth product">
+        <span>
+          Deep earth
+        </span>
+			</picture>
+			<picture class="product">
+				<source media="(min-width:400px)" srcset="./images/desktop/image-night-arcade.jpg">
+				<img src="./images/mobile/image-night-arcade.jpg" alt="night arcade product">
+        <span>
+          Night arcade
+        </span>
+			</picture>
+			<picture class="product">
+				<source media="(min-width:400px)" srcset="./images/desktop/image-soccer-team">
+				<img src="./images/mobile/image-deep-earth.jpg" alt="soccer team product">
+        <span>
+          Soccer team VR
+        </span>
+			</picture>
+			<picture class="product">
+				<source media="(min-width:400px)" srcset="./images/desktop/image-grid.jpg">
+				<img src="./images/mobile/image-grid.jpg" alt="grid product">
+        <span>
+          The grid
+        </span>
+			</picture>
+			<picture class="product">
+				<source media="(min-width:400px)" srcset="./images/desktop/image-from-above.jpg">
+				<img src="./images/mobile/image-from-above.jpg" alt="from above product">
+        <span>
+          From up above VR
+        </span>
+			</picture>
+      <picture class="product">
+				<source media="(min-width:400px)" srcset="./images/desktop/image-pocket-borealis.jpg">
+				<img src="./images/mobile/image-pocket-borealis.jpg" alt="pocket borealis product">
+        <span>
+          Pocket borealis
+        </span>
+			</picture>
+      <picture class="product">
+				<source media="(min-width:400px)" srcset="./images/desktop/image-curiosity.jpg">
+				<img src="./images/mobile/image-curiosity.jpg" alt="curiosity product">
+        <span>
+          The curiosity
+        </span>
+			</picture>
+      <picture class="product">
+				<source media="(min-width:400px)" srcset="./images/desktop/image-fisheye.jpg">
+				<img src="./images/mobile/image-fisheye.jpg" alt="fisheye product">
+        <span>
+          Make it fisheye
+        </span>
+			</picture>
     </div>
   </section>
   <footer>
